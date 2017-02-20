@@ -1,0 +1,48 @@
+/*.app-root-wrapper {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}*/
+
+.app-root {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+}
+
+.app-header {
+  background-color: #222;
+  color: white;
+  height: 10%;
+}
+
+.video-panel-root {
+  background-color: #a11;
+  height: 80%;
+}
+
+.cutlist-panel-root {
+  background-color: #1a1;
+  height: 80%;
+}
+
+.cut-panel-root {
+  background-color: #abf;
+  height: 10%;
+}
+
+.app-header {
+  flex: 1 100%;
+}
+
+.cutlist-panel-root {
+  flex: 1 auto;
+}
+
+.video-panel-root {
+  flex: 4 0px;
+}
+
+.cut-panel-root {
+  flex: 1 100%;
+}
