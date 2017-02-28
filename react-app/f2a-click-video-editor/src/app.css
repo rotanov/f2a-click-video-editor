@@ -8,11 +8,12 @@
   display: flex;
   flex-flow: row wrap;
   flex: 1 1 100%;
+  overflow: hidden;
 }
 .app-header {
   background-color: #222;
   color: white;
-  flex: 1 1 100%;
+  flex: 0 1 100%;
   max-height: 32px;
   min-height: 32px;
   border-style: solid;
@@ -23,7 +24,7 @@
 .video-panel-root {
   background-color: #a11;
   height: 100%;
-  flex: 4 1 0px;
+  flex: 4 1 auto;
 }
 .cutlist-panel-root {
   background-color: #333;
@@ -33,7 +34,6 @@
   flex-flow: column;
   overflow-y: scroll;
   overflow-x: hidden;
-  /* TODO: scrollbar */
 }
 .cutlist-toolbar {
   flex-flow: row;
