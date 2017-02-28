@@ -13,7 +13,7 @@ class CutlistItem extends Component {
 class Cutlist extends Component {
   render() {
     return (
-      <div className="cutlist-wrapper">
+      <div className="cutlist-panel-root">
         <div className="cutlist-toolbar">
           <div className="cutlist-item">+</div>
           <div className="cutlist-item">-</div>
